@@ -1,129 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./index__css/index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./index__css/index.css" />
+  </head>
+  <body>
     <header class="header">
-        <section class="header__section">
-            <div class="namangan">
-                <a href="./home.html">NAMANGANLIKLAR 24</a>
-                <p><strong>$</strong> 10137.2</p>
-                <p><strong>P</strong> 138.26</p>
-            </div>
+      <section class="header__section">
+        <div class="namangan">
+          <a href="./home.html">NAMANGANLIKLAR 24</a>
+          <p><strong>$</strong> 10137.2</p>
+          <p><strong>P</strong> 138.26</p>
+        </div>
 
         <div class="search__button">
-            <label for="header__search"></label>
-            <input required type="search" id="header__search" placeholder="Поиск" name="button__search">
+          <label for="header__search"></label>
+          <input
+            required
+            type="search"
+            id="header__search"
+            placeholder="Поиск"
+            name="button__search"
+          />
         </div>
 
         <div class="lang">
-            <label for="lang">УЗ</label>
-            <input type="radio" id="lang" name="language">
-    
-            <label for="lang">РУ</label>
-            <input type="radio" checked id="lang" name="language">
-        </div>
-    
-            <button class="header__button">
-                <a href="">Войти</a>
-            </button>
-        </section>
+          <label for="lang">УЗ</label>
+          <input type="radio" id="lang" name="language" />
 
+          <label for="lang">РУ</label>
+          <input type="radio" checked id="lang" name="language" />
+        </div>
+
+        <button class="header__button">
+          <a href="">Войти</a>
+        </button>
+      </section>
     </header>
 
     <main class="main">
-        <section class="nav">
-            <nav class="main__nav">
-                <a href="./home.html">Главное</a>
-                <a href="./list.html">Интересное</a>
-                <a href="./article.html">Экономика</a>
-                <a href="./index.html">Политика</a>
-                <a href="">Общество</a>
-                <a href="">Технологии</a>
-                <a href="">Спорт</a>
-                <a href="">Культура</a>
-                <a href="">Происшествия</a>
-                <a href="">Наука</a>
-            </nav>
-            <img src="./index__img/border.jpg" alt="photo">
-        </section>
+      <section class="nav">
+        <nav class="main__nav">
+          <a href="./home.html">Главное</a>
+          <a href="./list.html">Интересное</a>
+          <a href="./article.html">Экономика</a>
+          <a href="./index.html">Политика</a>
+          <a href="">Общество</a>
+          <a href="">Технологии</a>
+          <a href="">Спорт</a>
 
-        <section class="section__asosiy">
+          <a href="">Культура</a>
+          <a href="">Происшествия</a>
+          <a href="">Наука</a>
+        </nav>
+        <img src="./index__img/border.jpg" alt="photo" />
+      </section>
 
-            <div class="asosiy__div1">
-                <h1 class="asosiy__h1">Напишите нам</h1>
-    
-                <form action="https://echo.htmlacademy.ru/">
-                    
-                    <input required class="form__name" type="text" id="name" name="man__name" placeholder="Имя">
-    
-                    <input required class="form__tel" pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}" type="tel" id="phone" name="tel__number" placeholder="Номер телефона">
-    
-                    <input required class="form__email" type="email" id="email" name="man__email" placeholder="Электронная почта">
-    
-                    <textarea class="form__coment" name="coment" id="form__coment" cols="73" rows="10" placeholder="Текст"></textarea><br>
+      <section class="section__asosiy">
+        <div class="asosiy__div1">
+          <h1 class="asosiy__h1">Напишите нам</h1>
 
-                    <button class="button__submit">
-                        <input class="submit" type="submit" value="Отправить" name="submit" id="submit">
-                    </button>
+          <form action="https://echo.htmlacademy.ru/">
+            <input
+              required
+              class="form__name"
+              type="text"
+              id="name"
+              name="man__name"
+              placeholder="Имя"
+            />
 
-                </form>
-            </div>
+            <input
+              required
+              class="form__tel"
+              pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+              type="tel"
+              id="phone"
+              name="tel__number"
+              placeholder="Номер телефона"
+            />
 
-            <div class="asosiy__div2">
-                <div class="asosiy__info">
-                    <h3>Электронная почта</h3>
-                    <p>info@namanganliklar24.uz</p>
-                    <img src="./index__img/smallborder.jpg" alt="border">
-                    <h3>Номер телефона</h3>
-                    <p>+998 88 522-54-76</p>
-                    <img src="./index__img/smallborder.jpg" alt="border">
-                    <h3>Адрес</h3>
-                    <p>Ташкент, площадь Мустакиллик, 6 </p>
-                </div>
-            </div>
+            <input
+              required
+              class="form__email"
+              type="email"
+              id="email"
+              name="man__email"
+              placeholder="Электронная почта"
+            />
 
-        </section>
+            <textarea
+              class="form__coment"
+              name="coment"
+              id="form__coment"
+              cols="73"
+              rows="10"
+              placeholder="Текст"
+            ></textarea
+            ><br />
 
+            <button class="button__submit">
+              <input
+                class="submit"
+                type="submit"
+                value="Отправить"
+                name="submit"
+                id="submit"
+              />
+            </button>
+          </form>
+        </div>
+
+        <div class="asosiy__div2">
+          <div class="asosiy__info">
+            <h3>Электронная почта</h3>
+            <p>info@namanganliklar24.uz</p>
+            <img src="./index__img/smallborder.jpg" alt="border" />
+            <h3>Номер телефона</h3>
+            <p>+998 88 522-54-76</p>
+            <img src="./index__img/smallborder.jpg" alt="border" />
+            <h3>Адрес</h3>
+            <p>Ташкент, площадь Мустакиллик, 6</p>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-        <section class="footer__section1">
-            <div class="footer__section1__div">
-                <p class="p1">NAMANGANLIKLAR 24</p>
-                <p class="p2">Воспроизводство, копирование, использование информации с сайта «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции.</p>
-            </div>
-            <nav class="footer__section1__nav1">
-                <a href="">Информация о сайте</a>
-                <a href="./index.html">Напишите нам</a>
-                <a href="">Реклама</a>
-                <a href="">Прислать новость</a>
-            </nav>
-            <nav class="footer__section1__nav2">
-                <a href="">Использование материалов</a>
-                <a href="">Темы дня</a>
-                <a href="">Наша команда</a>
-            </nav>
-        </section>
-            <div class="footer__img" >
-                <img src="./index__img/bordermedium.png" alt="border">
-            </div>
-        <section class="footer__section2">
-            <div class="footer__section2__div">
-                <h3>Наши <br> социальные сети</h3>
-                <img src="./index__img/facebook.svg" alt="facebook">
-                <img src="./index__img/instagram.svg" alt="instagram">
-                <img src="./index__img/telegram.svg" alt="telegram">
-                <img src="./index__img/youtube.svg" alt="youtube">
-            </div>
-        </section>
+      <section class="footer__section1">
+        <div class="footer__section1__div">
+          <p class="p1">NAMANGANLIKLAR 24</p>
+          <p class="p2">
+            Воспроизводство, копирование, использование информации с сайта
+            «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного
+            разрешения редакции.
+          </p>
+        </div>
+        <nav class="footer__section1__nav1">
+          <a href="">Информация о сайте</a>
+          <a href="./index.html">Напишите нам</a>
+          <a href="">Реклама</a>
+          <a href="">Прислать новость</a>
+        </nav>
+        <nav class="footer__section1__nav2">
+          <a href="">Использование материалов</a>
+          <a href="">Темы дня</a>
+          <a href="">Наша команда</a>
+        </nav>
+      </section>
+      <div class="footer__img">
+        <img src="./index__img/bordermedium.png" alt="border" />
+      </div>
+      <section class="footer__section2">
+        <div class="footer__section2__div">
+          <h3>
+            Наши <br />
+            социальные сети
+          </h3>
+          <img src="./index__img/facebook.svg" alt="facebook" />
+          <img src="./index__img/instagram.svg" alt="instagram" />
+          <img src="./index__img/telegram.svg" alt="telegram" />
+          <img src="./index__img/youtube.svg" alt="youtube" />
+        </div>
+      </section>
     </footer>
-
-
-</body>
+  </body>
 </html>
